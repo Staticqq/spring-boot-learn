@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test
+    username: root
+    password: 123456
+    platform: h2
+    initialization-mode: embedded
+    schema: classpath:schema/schema-${spring.datasource.platform}.sql
+  quartz:
+    jdbc:
+      initialize-schema: embedded
+    job-store-type: jdbc
+mybatis:
+  mapper-locations: mappers/**Mapper.xml
