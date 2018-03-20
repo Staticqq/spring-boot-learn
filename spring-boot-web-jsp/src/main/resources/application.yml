@@ -1,0 +1,11 @@
+#jsp视图配置，类似于配置springmvc的视图解析器spring:
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+application:
+  message: hello tuxianchao
+

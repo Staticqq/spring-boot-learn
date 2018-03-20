@@ -1,0 +1,15 @@
+#数据源1&&数据源2
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      datasource-one:
+         url: jdbc:mysql://localhost:3306/spring-boot
+      datasource-two:
+        url: jdbc:mysql://localhost:3306/spring-boot-2
+
+
+

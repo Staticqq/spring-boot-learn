@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" filepath="$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger2/spring-boot-swagger2.iml" filepath="$PROJECT_DIR$/spring-boot-swagger2/spring-boot-swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-jsp/spring-boot-web-jsp.iml" filepath="$PROJECT_DIR$/spring-boot-web-jsp/spring-boot-web-jsp.iml" />
+    </modules>
+  </component>
+</project>
