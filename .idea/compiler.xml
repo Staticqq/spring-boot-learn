@@ -10,6 +10,7 @@
         <module name="spring-boot-jdbctemplate-datasource" />
         <module name="spring-boot-quartz" />
         <module name="spring-boot-redis" />
+        <module name="spring-boot-restfulurl-demo" />
         <module name="spring-boot-swagger2" />
         <module name="spring-boot-web-jsp" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="spring-boot-learn" target="1.8" />
       <module name="spring-boot-quartz" target="1.8" />
       <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-restfulurl-demo" target="1.8" />
       <module name="spring-boot-swagger2" target="1.8" />
       <module name="spring-boot-web-jsp" target="1.8" />
     </bytecodeTargetLevel>

@@ -11,3 +11,10 @@ spring-boot 2.0学习
 
 ## 4.spring-boot-jdbctemplate-datasource
 	spring-boot下jdbctemplate的使用，以及druid多数据源的配置。
+## 5.spring-boot-restfulurl-demo
+    spring-boot中restful风格的url以及使用mock测试对controller层进行测试
+## 6.spring-boot中定时任务框架quartz的实现
+    简单静态任务的配置，
+    存储在数据库中的任务，动态的进行调度，添加等。
+    
+    
