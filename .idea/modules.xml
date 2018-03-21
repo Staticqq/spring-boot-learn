@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" filepath="$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-fileupload/spring-boot-fileupload.iml" filepath="$PROJECT_DIR$/spring-boot-fileupload/spring-boot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" />
