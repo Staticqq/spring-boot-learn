@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--classpathEntry:配置数据库驱动所在的位置，这里直接在工程中 不需要配置 -->
+    <!-- <classPathEntry location="" /> -->
+
+    <!-- targetRuntime：生成的目标，MyBatis3Simple，MyBatis3，Ibatis2Java2，Ibatis2Java5 -->
+    <context id="mysql" targetRuntime="MyBatis3Simple">
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/spring-boot?useSSL=true"
+                        userId="root" password="123456">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!-- 生成过后bean存放的位置 -->
+        <javaModelGenerator targetPackage="com.tuxianchao.demo.springbootmybatisxml.entity"
+                            targetProject="D:\IEDAWork\spring-boot-learn\spring-boot-learn\spring-boot-mybaits-xml\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- 生成过后mapper文件存放的位置 -->
+        <sqlMapGenerator targetPackage="com.tuxianchao.demo.springbootmybatisxml.mapper"
+                         targetProject="D:\IEDAWork\spring-boot-learn\spring-boot-learn\spring-boot-mybaits-xml\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 生成过后mapper接口存放的位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.tuxianchao.demo.springbootmybatisxml.mapper"
+                             targetProject="D:\IEDAWork\spring-boot-learn\spring-boot-learn\spring-boot-mybaits-xml\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!-- table：要生成的表 -->
+        <!-- example：生成example类 -->
+        <table tableName="tbl_user" domainObjectName="User"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <!-- 生成Javabean的属性名是否直接使用数据库字段名，还是生成驼峰命名的属性名 -->
+            <property name="useActualColumnNames" value="false"/>
+        </table>
+
+        <!--&lt;!&ndash;enableXXXX：是否生成XXXX的方法，可以通过将所有带有example的设为false，就不会生成example类了 &ndash;&gt;-->
+        <!--<table tableName="department" domainObjectName="Department"-->
+        <!--enableCountByExample="false" enableUpdateByExample="false"-->
+        <!--enableDeleteByExample="false" enableSelectByExample="false"-->
+        <!--selectByExampleQueryId="false" enableInsert="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--</table>-->
+    </context>
+</generatorConfiguration>

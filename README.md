@@ -26,3 +26,11 @@ spring-boot 2.0学习
 ## 8.spring-boot-fileupload
     文件上传
     
+## 9.spring-boot-mybatis-annotation
+    spring-boot中使用mybatis，完全使用注解。0xml配置
+## 10.spring-boot-mybatis-xml
+    spring-boot中使用mybatis，完全使用xml 
+## 11.spring-boot-mybatis-mapper
+    逆向工程生成实体类，mapper文件和mapper接口，使用开源通用mapper。
+    spring-boot中mybatis事务相关配置
+    

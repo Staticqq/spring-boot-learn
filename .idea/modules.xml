@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-fileupload/spring-boot-fileupload.iml" filepath="$PROJECT_DIR$/spring-boot-fileupload/spring-boot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/spring-boot-jdbctemplate-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybaits-xml/spring-boot-mybaits-xml.iml" filepath="$PROJECT_DIR$/spring-boot-mybaits-xml/spring-boot-mybaits-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mapper/spring-boot-mybatis-mapper.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mapper/spring-boot-mybatis-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restfulurl-demo/spring-boot-restfulurl-demo.iml" filepath="$PROJECT_DIR$/spring-boot-restfulurl-demo/spring-boot-restfulurl-demo.iml" />

@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/spring-boot-web-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-restfulurl-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybaits-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-mapper/pom.xml" />
       </list>
     </option>
   </component>

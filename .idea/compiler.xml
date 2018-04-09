@@ -9,6 +9,9 @@
         <module name="spring-boot-exception" />
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-jdbctemplate-datasource" />
+        <module name="spring-boot-mybaits-xml" />
+        <module name="spring-boot-mybatis-annotation" />
+        <module name="spring-boot-mybatis-mapper" />
         <module name="spring-boot-quartz" />
         <module name="spring-boot-redis" />
         <module name="spring-boot-restfulurl-demo" />
@@ -21,6 +24,9 @@
       <module name="spring-boot-fileupload" target="1.8" />
       <module name="spring-boot-jdbctemplate-datasource" target="1.8" />
       <module name="spring-boot-learn" target="1.8" />
+      <module name="spring-boot-mybaits-xml" target="1.8" />
+      <module name="spring-boot-mybatis-annotation" target="1.8" />
+      <module name="spring-boot-mybatis-mapper" target="1.8" />
       <module name="spring-boot-quartz" target="1.8" />
       <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-restfulurl-demo" target="1.8" />
