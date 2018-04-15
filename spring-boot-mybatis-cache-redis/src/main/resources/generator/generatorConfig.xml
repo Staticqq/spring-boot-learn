@@ -36,13 +36,13 @@
         </jdbcConnection>
 
         <!-- 对于生成的pojo所在包 -->
-        <javaModelGenerator targetPackage="com.tuxianchao.springbootmybatismapper.pojo" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.tuxianchao.demo.springbootmybatiscacheredis.pojo" targetProject="src/main/java"/>
 
         <!-- 对于生成的mapper所在目录 -->
-        <sqlMapGenerator targetPackage="com.tuxianchao.springbootmybatismapper.mapper" targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="com.tuxianchao.demo.springbootmybatiscacheredis.mapper" targetProject="src/main/java"/>
 
         <!-- 配置mapper对应的java映射 -->
-        <javaClientGenerator targetPackage="com.tuxianchao.springbootmybatismapper.mapper" targetProject="src/main/java"
+        <javaClientGenerator targetPackage="com.tuxianchao.demo.springbootmybatiscacheredis.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
         <!--和数据库对应的配置-->

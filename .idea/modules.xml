@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybaits-xml/spring-boot-mybaits-xml.iml" filepath="$PROJECT_DIR$/spring-boot-mybaits-xml/spring-boot-mybaits-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-cache-redis/spring-boot-mybatis-cache-redis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-cache-redis/spring-boot-mybatis-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mapper/spring-boot-mybatis-mapper.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mapper/spring-boot-mybatis-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />

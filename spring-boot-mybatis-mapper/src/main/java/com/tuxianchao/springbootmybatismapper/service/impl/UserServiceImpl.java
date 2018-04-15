@@ -19,6 +19,12 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    /**
+     * Cacheable:
+     * CachePut:
+     * CacheEvict:
+     * CacheConfig:
+     */
     @Override
     @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     public PageInfo findByPage(int pageNum, int pageSize) {
@@ -29,10 +35,11 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
+
     public int insertUser(User user) {
         int result = userMapper.insert(user);
         //手动抛出一个异常，测试事务是否生效
-        throw new NullPointerException();
-        //return result;
+        //throw new NullPointerException();
+        return result;
     }
 }

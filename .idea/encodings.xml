@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/spring-boot-jdbctemplate-datasource/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybaits-xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-cache-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mapper/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-quartz" charset="UTF-8" />

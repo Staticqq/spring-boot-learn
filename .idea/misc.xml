@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybaits-xml/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-cache-redis/pom.xml" />
       </list>
     </option>
   </component>

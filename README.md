@@ -33,4 +33,8 @@ spring-boot 2.0学习
 ## 11.spring-boot-mybatis-mapper
     逆向工程生成实体类，mapper文件和mapper接口，使用开源通用mapper。
     spring-boot中mybatis事务相关配置
+    spring-boot二级缓存配置(ehcache)
+    
+## 12.spring-boot-mybatis-cache-redis
+    使用redis作为myabtis的二级缓存
     

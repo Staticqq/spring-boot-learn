@@ -1,0 +1,49 @@
+#数据源配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-boot
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      min-idle: 1
+      initial-size: 10
+      max-active: 20
+      test-on-borrow: true
+  redis:
+      host: 120.78.129.182
+      port: 6399
+      database: 0
+      jedis:
+        pool:
+          max-active: 8
+          min-idle: 0
+          max-idle: 8
+          max-wait: -1
+      timeout: 1000000
+      password: wangwei2105
+#mybaits配置
+mybatis:
+  mapper-locations: classpath:com/tuxianchao/demo/springbootmybatiscacheredis/mapper/*Mapper.xml
+  configuration:
+    cache-enabled: true
+  type-aliases-package: com.tuxianchao.demo.springbootmybatiscacheredis.pojo
+#通用mapper配置
+mapper:
+  mappers: tk.mybatis.mapper.common.Mapper
+  identity: MYSQL
+  not-empty: true
+#分页插件配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+logging:
+  level:
+    com.tuxianchao.demo.springbootmybatiscacheredis.mapper: DEBUG #打印mybatis SQL
+    org.mybatis: DEBUG
+
+
+
